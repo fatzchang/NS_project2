@@ -1,0 +1,25 @@
+{
+  "name": "ns_project2",
+  "version": "1.0.0",
+  "description": "NYCU Network Security Project 2 === ## Description This is the second project of NYCU Network Security course. The goal of this project is to classify the attacks from given logs. ## Requirement - Nodejs",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatzchang/NS_project2.git"
+  },
+  "author": "fatz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatzchang/NS_project2/issues"
+  },
+  "homepage": "https://github.com/fatzchang/NS_project2#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
