@@ -18,5 +18,3 @@ fs.readdirSync(dataDir).forEach(async (logFile) => {
 
     console.log(`${logFile}: ${attack_type}`);
 })
-
-// classifier("./data/DDoS.json")
