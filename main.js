@@ -11,10 +11,14 @@ if (argv.length != 0) {
     dataDir = argv[0];
 }
 
-fs.readdirSync(dataDir).forEach(async (logFile) => {
-    // get absolute path of file
-    const filePath = path.resolve(dataDir, logFile);
-    const attack_type = await classifier(filePath);
-
-    console.log(`${logFile}: ${attack_type}`);
-})
+try {
+    fs.readdirSync(dataDir).forEach(async (logFile) => {
+        // get absolute path of file
+        const filePath = path.resolve(dataDir, logFile);
+        const attack_type = await classifier(filePath);
+    
+        console.log(`${logFile}: ${attack_type}`);
+    })
+} catch (err) {
+    console.log(`Can not open directory "${dataDir}"`);
+}
