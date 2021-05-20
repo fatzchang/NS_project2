@@ -9,7 +9,7 @@ NYCU Network Security Project 2
 This is the second project of NYCU Network Security course. The goal of this project is to classify the attacks from given datasets.
 ## Requirement
 - Nodejs with npm installed
-- [Download](https://drive.google.com/file/d/1WPh7pxE3fdufN4GFha3Bp3BMsfa98Uo8) the datasets from google drive
+- [Download](https://drive.google.com/file/d/1WPh7pxE3fdufN4GFha3Bp3BMsfa98Uo8) the TA provided datasets from google drive
 
 ## Usage
 ### Clone this repo
